@@ -191,7 +191,7 @@ function CreatorInfo(){
     <>
       <hr/>
       <h4>Created By: Lokesh Kumar</h4>
-      <p><a href="https://https://github.com/Neolokeshkr">See Code</a></p>
+      <p><a href="https://github.com/Neolokeshkr/ManufacAnalytics-DataVisualisationChallange/tree/master">See Code</a></p>
     </>
   )
 }
