@@ -2,7 +2,7 @@
 ## Lets get started with Wine Data Visualisation 
 
 # Screenshot 
-![Screenshot](Manufac-DataVisualisation.png)
+![Screenshot](WineDataVisualisation.png)
 
 # Running the Project
 1. Clone the Repository -> Run the below command in cmd/terminal in a new directory

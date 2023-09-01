@@ -98,11 +98,10 @@ function Table({data, ingredient}) {
       const flavanoidsSortedArray = flavanoidsArray.sort((a,b) => Number(a) - Number(b))
       const middleIndex = Math.round(flavanoidsSortedArray.length / 2)
 
-
       if(flavanoidsSortedArray.length % 2 !== 0){
         return Math.round((flavanoidsSortedArray[middleIndex]) * 1000) / 1000
       } else {
-        return Math.round(((flavanoidsSortedArray[middleIndex - 1] + flavanoidsSortedArray[middleIndex])/2))
+        return Math.round(((flavanoidsSortedArray[middleIndex - 1] + flavanoidsSortedArray[middleIndex])/2) * 1000) / 1000;
       }
 
     })
